@@ -5,6 +5,10 @@ import CustomInput from '../components/customInput';
 
 import WorkDetailsInput from './WorkDetailsInput';
 import Future from './Future';
+import PathTableInput from '../components/PathTableInput';
+import Labour from './labour';
+
+
 
 
 
@@ -12,37 +16,37 @@ function FormPage() {
   return (
     <Container>
       <Wrapper>
-        <CustomBg />
+        <CustomBg text="General Details" />
         <Form>
           <FormSection>
             <Formright>
               <label>customer name</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>customer Address</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>Zip code</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>Plant Name</label>
               <CustomInput />
             </Formright>
           </FormSection>
 
           <FormSection>
-            {/* Add margin-right: 90px to FormSection */}
+            
             <Formleft>
-              <label>customer name</label>
+              <label>Date</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>Job Name</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>customer Contact</label>
               <CustomInput />
 
-              <label>customer name</label>
+              <label>customer tel no.</label>
               <CustomInput />
             </Formleft>
           </FormSection>
@@ -50,6 +54,10 @@ function FormPage() {
       
         <WorkDetailsInput />
         <Future/>
+        <PathTableInput/>
+        
+        <Labour/>
+     
 
        
         
@@ -65,7 +73,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  border: dotted;
+ 
   height: 100vh;
   width: 963px;
   margin-left: 237px;

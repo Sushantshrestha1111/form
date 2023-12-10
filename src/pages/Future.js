@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import customBackground from '../components/customBackground'
+import CustomBg from '../components/customBackground';
+import TableInput from '../components/TableInput'
 
 function Future() {
   return (
     <Wrapper>
-        
+        <CustomBg text="Future Action Needed"/>
+        <TableInput/>
+
 
     </Wrapper>
   )

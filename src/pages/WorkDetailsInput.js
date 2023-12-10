@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import CustomBg from '../components/customBackground';
 
 const ParagraphInput = () => {
   const [paragraph, setParagraph] = useState('');
@@ -10,7 +11,8 @@ const ParagraphInput = () => {
 
   return (
     <Container>
-      <Label>Enter Paragraph:</Label>
+        <CustomBg text="Details of work carried out"/>
+     
       <TextArea
         value={paragraph}
         onChange={handleInputChange}
