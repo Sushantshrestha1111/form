@@ -90,7 +90,7 @@ const Input = styled.input`
 `;
 
 const InputSmall = styled(Input)`
-  width: 60%;
+  width: 90%;
 `;
 
 const InputLarge = styled(Input)`

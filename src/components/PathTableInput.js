@@ -74,7 +74,7 @@ const TableHeader = styled.th`
 `;
 
 const TableHeaderSmall = styled(TableHeader)`
-  width: 20%;
+  width: 30%;
 `;
 
 const TableHeaderLarge = styled(TableHeader)`
@@ -88,7 +88,7 @@ const Input = styled.input`
 `;
 
 const InputSmall = styled(Input)`
-  width: 60%;
+  width: 80%;
 `;
 
 const InputLarge = styled(Input)`

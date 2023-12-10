@@ -16,7 +16,7 @@ const ParagraphInput = () => {
       <TextArea
         value={paragraph}
         onChange={handleInputChange}
-        placeholder="Type your paragraph here..."
+        placeholder="Type here"
       />
     </Container>
   );
